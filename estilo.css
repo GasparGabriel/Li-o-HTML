@@ -1,0 +1,29 @@
+*{
+    background-color: grey;
+}
+.titulos img{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+.footer img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+.icons img{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+h1 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.titulo img {
+    width: 30px;
+    height: 30px;
+    
+}
