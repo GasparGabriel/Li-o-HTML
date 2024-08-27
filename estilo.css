@@ -27,7 +27,6 @@ h1 {
     height: 30px;
     
 }
-
 /* Estilização do container do slider */
 .slider {
     width: 100%; /* O slider ocupa 100% da largura disponível */
@@ -62,4 +61,53 @@ h1 {
 .slide img {
     width: 100%; /* A imagem ocupa 100% da largura do slide */
     display: block; /* Remove qualquer espaço extra ao redor da imagem */
+}
+/* Estilo para o contêiner principal */
+.container {
+    display: flex; /* Define o contêiner como um flexbox */
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+}
+
+/* Estilo para cada card */
+.card {
+    background-color: grey;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    flex: 1; /* Permite que os cards cresçam igualmente */
+    max-width: 300px; /* Define uma largura máxima para os cards */
+}
+
+/* Estilo para o título dos cards */
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: black;
+}
+
+/* Estilo para o parágrafo dos cards */
+.card p {
+    color: black;
+}
+.card img{ 
+    width: 225px;
+    height: 200px; 
+}
+ p{
+    text-align: center;
+    font-size: large;
+}
+.sobrehino{
+    text-align: left;
+}
+iframe{
+    align-items: center;
+    margin: 20px;
+}
+.estadio{
+    text-align: center;
+    font-size: large;
+    font: italic;
 }
