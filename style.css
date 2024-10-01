@@ -136,3 +136,36 @@ iframe{
     text-align: center;
     font-size:larger;
 }
+.btn-login{
+    border-radius: 20px;
+    width: 85px;
+    height: 85px;
+    font-size:18px;
+}
+.btn-sobre{
+    border-radius: 20px;
+    width: 85px;
+    height: 85px;
+    font-size:18px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-login label{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: flex;
+}
+.container-login{
+    padding: 35px;
+    
+}
+.container-login p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: flex;
+}
